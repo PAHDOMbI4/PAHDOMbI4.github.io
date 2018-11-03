@@ -144,13 +144,17 @@
       transform: scale(1.1); }
   .price .price_table {
     position: absolute;
+    display: inline-block;
     top: 30%;
-    left: 35%; }
-    .price .price_table td {
-      display: inline-block; }
-      .price .price_table td.td-0 {
-        display: inline-block;
-        min-midth: 20%; }
+    left: 30%;
+    width: 50%; }
+    .price .price_table table {
+      width: 100%; }
+    .price .price_table td.td-0 {
+      display: inline-block;
+      width: 79%; }
+    .price .price_table td.td-1 {
+      width: 19%; }
   .price.price-hairstyle {
     background-image: url("../img/hairstyle.jpg"); }
 

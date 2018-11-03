@@ -1,7 +1,6 @@
 @font-face {
   font-family: "LogoFont";
-  src: url("12161.otf");
-}
+  src: url("12161.otf"); }
 .header {
   position: fixed;
   top: 0px;
@@ -10,58 +9,48 @@
   height: 95px;
   background-color: rgba(12, 11, 12, 0.57);
   z-index: 555;
-  border-bottom: 3px solid #36022e;
-}
-.header .header_menu {
-  position: absolute;
-  top: 10px;
-  left: 50px;
-  width: 850px;
-  height: 70px;
-  border: 1px solid #302322;
-  border-radius: 15px;
-  z-index: 556;
-  color: #e4dbe3;
-}
-.header .header_menu .menu {
-  position: absolute;
-  cursor: pointer;
-  font-size: 28px;
-}
-.header .header_menu .menu.ref_0 {
-  top: 5px;
-  left: 10px;
-}
-.header .header_menu .menu.ref_1 {
-  top: 35px;
-  left: 130px;
-}
-.header .header_menu .menu.ref_2 {
-  top: 5px;
-  left: 265px;
-}
-.header .header_menu .menu.ref_3 {
-  top: 35px;
-  left: 420px;
-}
-.header .header_menu .menu.ref_4 {
-  top: 5px;
-  left: 590px;
-}
-.header .header_menu .menu.ref_5 {
-  top: 35px;
-  left: 720px;
-}
-.header .header_info {
-  position: absolute;
-  top: 10px;
-  left: 950px;
-  width: 250px;
-  height: 70px;
-  border: 1px solid #302322;
-  border-radius: 15px;
-  z-index: 556;
-}
+  border-bottom: 3px solid #36022e; }
+  .header .header_menu {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 850px;
+    height: 70px;
+    border: 1px solid #302322;
+    border-radius: 15px;
+    z-index: 556;
+    color: #e4dbe3; }
+    .header .header_menu .menu {
+      position: absolute;
+      cursor: pointer;
+      font-size: 28px; }
+      .header .header_menu .menu.ref_0 {
+        top: 5px;
+        left: 10px; }
+      .header .header_menu .menu.ref_1 {
+        top: 35px;
+        left: 130px; }
+      .header .header_menu .menu.ref_2 {
+        top: 5px;
+        left: 265px; }
+      .header .header_menu .menu.ref_3 {
+        top: 35px;
+        left: 420px; }
+      .header .header_menu .menu.ref_4 {
+        top: 5px;
+        left: 590px; }
+      .header .header_menu .menu.ref_5 {
+        top: 35px;
+        left: 720px; }
+  .header .header_info {
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    width: 250px;
+    height: 70px;
+    border: 1px solid #302322;
+    border-radius: 15px;
+    z-index: 556; }
 
 /*
 .bg_stat{
@@ -94,40 +83,34 @@
   background-image: url(img/0.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center;
-}
-.general .logo {
-  position: absolute;
-  top: 130px;
-  left: 90px;
-  width: 150px;
-  height: 90px;
-  border-radius: 15px;
-  z-index: 556;
-  font-family: LogoFont;
-  font-size: 200px;
-  color: #50294a;
-}
-.general .sale {
-  position: absolute;
-  top: 418px;
-  left: 73px;
-  width: 541px;
-  height: 250px;
-  border-radius: 30px;
-  border: 1px solid #302322;
-  display: none;
-  background-color: rgba(12, 11, 12, 0.2);
-}
-.general .sale.sale-0 {
-  background-color: red;
-}
-.general .sale.sale-1 {
-  background-color: green;
-}
-.general .sale.sale-2 {
-  background-color: blue;
-}
+  background-position: center; }
+  .general .logo {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+    z-index: 556;
+    font-family: LogoFont;
+    font-size: 200px;
+    color: #50294a; }
+  .general .sale {
+    position: absolute;
+    top: 418px;
+    left: 73px;
+    width: 541px;
+    height: 250px;
+    border-radius: 30px;
+    border: 1px solid #302322;
+    display: none;
+    background-color: rgba(12, 11, 12, 0.2); }
+    .general .sale.sale-0 {
+      background-color: red; }
+    .general .sale.sale-1 {
+      background-color: green; }
+    .general .sale.sale-2 {
+      background-color: blue; }
 
 .hairstyle {
   position: absolute;
@@ -139,43 +122,38 @@
   background-image: url(img/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-}
-.hairstyle .content_0 {
-  position: absolute;
-  width: 880px;
-  height: 560px;
-  left: 14px;
-  top: 82px;
-  text-align: center;
-  background: rgba(239, 224, 224, 0.61);
-}
-.hairstyle .content_0 .hairstyle-price,
-.hairstyle .content_0 .hairstyle-price-man,
-.hairstyle .content_0 .hairstyle-price-children,
-.hairstyle .content_0 .hairstyle-price-wooman {
-  position: relative;
-  transform-origin: 50% 50%;
-  left: 0%;
-  top: 5%;
-  font-family: LogoFont;
-  font-size: 52px;
-  color: #50294a;
-}
-.hairstyle .hairstyle-man {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  width: 90%;
-  height: 80%;
-  background-color: #F0F;
-}
-.hairstyle .hairstyle-man table {
-  border: 2px;
-  bordercolor: #0F0;
-  width: 350px;
-  height: 400px;
-}
+  background-size: 100% 100%; }
+  .hairstyle .content_0 {
+    position: absolute;
+    width: 880px;
+    height: 560px;
+    left: 14px;
+    top: 82px;
+    text-align: center;
+    background: rgba(239, 224, 224, 0.61); }
+    .hairstyle .content_0 .hairstyle-price,
+    .hairstyle .content_0 .hairstyle-price-man,
+    .hairstyle .content_0 .hairstyle-price-children,
+    .hairstyle .content_0 .hairstyle-price-wooman {
+      position: relative;
+      transform-origin: 50% 50%;
+      left: 0%;
+      top: 5%;
+      font-family: LogoFont;
+      font-size: 52px;
+      color: #50294a; }
+  .hairstyle .hairstyle-man {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: #F0F; }
+    .hairstyle .hairstyle-man table {
+      border: 2px;
+      bordercolor: #0F0;
+      width: 350px;
+      height: 400px; }
 
 .makeup {
   position: absolute;
@@ -187,16 +165,14 @@
   background-image: url(img/2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-}
-.makeup .content_1 {
-  position: absolute;
-  width: 880px;
-  height: 560px;
-  left: 14px;
-  top: 82px;
-  background: rgba(241, 158, 217, 0.41);
-}
+  background-size: 100% 100%; }
+  .makeup .content_1 {
+    position: absolute;
+    width: 880px;
+    height: 560px;
+    left: 14px;
+    top: 82px;
+    background: rgba(241, 158, 217, 0.41); }
 
 .massage {
   position: absolute;
@@ -208,16 +184,14 @@
   background-image: url(img/3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-}
-.massage .content_2 {
-  position: absolute;
-  width: 880px;
-  height: 560px;
-  left: 14px;
-  top: 36px;
-  background: rgba(239, 218, 192, 0.72);
-}
+  background-size: 100% 100%; }
+  .massage .content_2 {
+    position: absolute;
+    width: 880px;
+    height: 560px;
+    left: 14px;
+    top: 36px;
+    background: rgba(239, 218, 192, 0.72); }
 
 .manicure {
   position: absolute;
@@ -229,16 +203,14 @@
   background-image: url(img/4.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
-}
-.manicure .content_3 {
-  position: absolute;
-  width: 880px;
-  height: 560px;
-  left: 14px;
-  top: 82px;
-  background: rgba(158, 216, 241, 0.69);
-}
+  background-size: 100% 100%; }
+  .manicure .content_3 {
+    position: absolute;
+    width: 880px;
+    height: 560px;
+    left: 14px;
+    top: 82px;
+    background: rgba(158, 216, 241, 0.69); }
 
 .contacts {
   position: absolute;
@@ -255,5 +227,6 @@
   color: #C7FDFD;
   /*	background-image: url(img/o_nas.jpg);
   	background-repeat: no-repeat;
-  	background-position: center;*/
-}
+  	background-position: center;*/ }
+
+/*# sourceMappingURL=style.css.map */
