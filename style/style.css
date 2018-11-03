@@ -1,6 +1,11 @@
 @font-face {
   font-family: "LogoFont";
   src: url("12161.otf"); }
+body {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
 .screen-bg {
   position: relative;
   width: 100%;
