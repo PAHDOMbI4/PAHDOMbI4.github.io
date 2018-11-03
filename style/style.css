@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "LogoFont";
+  src: url("12161.otf"); }
+.screen-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url("../img/0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .screen-bg .logo {
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    height: 40%;
+    width: 55%;
+    font-family: LogoFont; }
+  .screen-bg .sale {
+    position: absolute;
+    width: 13%;
+    height: 26%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    cursor: pointer; }
+    .screen-bg .sale.sale-hairstyle {
+      top: 5%;
+      left: 3%;
+      background-image: url("../img/sale-hairstyle.jpg");
+      transform-origin: 50% 50%; }
+    .screen-bg .sale.sale-manicure {
+      top: 36%;
+      left: 3%;
+      background-image: url("../img/sale-manicure.jpg");
+      transform-origin: 50% 50%; }
+    .screen-bg .sale.sale-depilation {
+      top: 68%;
+      left: 3%;
+      background-image: url("../img/sale-depilation.jpg");
+      transform-origin: 50% 50%; }
+    .screen-bg .sale:hover {
+      transform: scale(1.08); }
+
+.big_size {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  transform-origin: center; }
+  .big_size .sale-image {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    top: 5%;
+    left: 30%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: auto 100%; }
+    .big_size .sale-image.hairstyle {
+      background-image: url("../img/sale-hairstyle.jpg"); }
+    .big_size .sale-image.manicure {
+      background-image: url("../img/sale-manicure.jpg"); }
+    .big_size .sale-image.depilation {
+      background-image: url("../img/sale-depilation.jpg"); }
+
+.menu-body {
+  position: relative;
+  width: 100%;
+  height: 10%; }
+  .menu-body .menu {
+    width: 20%;
+    height: 100%;
+    margin: 0px -0.15%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    font-family: LogoFont;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    background-color: #45322E;
+    text-shadow: 1px 1px 0 black;
+    color: #7c0f96;
+    cursor: pointer; }
+    .menu-body .menu.menu-hairstyle {
+      background-image: url("../img/hairstyle.jpg"); }
+    .menu-body .menu.menu-massage {
+      background-image: url("../img/massage.jpg"); }
+    .menu-body .menu.menu-makeup {
+      background-image: url("../img/makeup.jpg"); }
+    .menu-body .menu.menu-manicure {
+      background-image: url("../img/manicure.jpg"); }
+    .menu-body .menu.menu-epilation {
+      background-image: url("../img/epilation.jpg"); }
+    .menu-body .menu:hover {
+      opacity: 0.75; }
+
+.contacts {
+  width: 100%;
+  height: 30%;
+  background-color: #45322E;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 3%;
+  padding-left: 3%;
+  color: #c7add2; }
+  .contacts .text-contacts {
+    line-height: 1.7em; }
+
+.price {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: none; }
+  .price .pos-click {
+    position: absolute;
+    left: 5%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transform-origin: 50% 50%; }
+    .price .pos-click.click-man {
+      top: 40%; }
+    .price .pos-click.click-children {
+      top: 45%; }
+    .price .pos-click.click-woman {
+      top: 50%; }
+    .price .pos-click:hover {
+      transform: scale(1.1); }
+  .price .button-back {
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    width: auto;
+    height: auto;
+    cursor: pointer; }
+    .price .button-back:hover {
+      transform: scale(1.1); }
+  .price .price_table {
+    position: absolute;
+    top: 30%;
+    left: 35%; }
+    .price .price_table td {
+      display: inline-block; }
+      .price .price_table td.td-0 {
+        display: inline-block;
+        min-midth: 20%; }
+  .price.price-hairstyle {
+    background-image: url("../img/hairstyle.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

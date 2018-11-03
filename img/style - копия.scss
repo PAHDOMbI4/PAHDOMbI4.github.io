@@ -1,0 +1,285 @@
+
+@font-face{
+	font-family: "LogoFont";
+	src: url('12161.otf');
+}
+
+#body{	
+	background-image: url(img/o_nas.jpg);
+	background-size: cover;
+	/*background-width: 1300px;
+	background-height: 500px;*/
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.header{
+	position:fixed;
+	top: 0px;
+	left: 10%;
+/*	right: 0%;*/
+	width: 1280px;
+	height: 95px;
+	background-color: transparent;
+	/*background-color: #fffefc;*/
+	z-index: 555;
+	border-bottom: 3px solid #302322;
+
+	.logo{
+		position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 150px;
+		height: 90px;
+		border-radius: 15px;
+		z-index: 556;    
+		font-family: LogoFont;
+    	font-size: 100px;
+    	color: #452d35;
+	}
+	.header_menu{
+		position: absolute;
+		top: 10px;
+		left: 350px;
+		width: 550px;
+		height: 70px;
+		border: 1px solid #302322;
+		border-radius: 15px;
+		z-index: 556;
+
+		.menu{
+			position: absolute;
+			cursor: pointer;
+			font-size: 28px;
+
+			&.ref_0{
+				top: 5px;
+				left: 10px;
+			}
+
+			&.ref_1{
+				top: 11px;
+				left: 104px;
+			}
+
+			&.ref_2{
+				top: 22px;
+				left: 297px;
+			}
+
+			&.ref_3{
+				top: 36px;
+				left: 425px;
+			}
+		}
+	}
+	.header_info{
+		position: absolute;
+		top: 10px;
+		left: 950px;
+		width: 250px;
+		height: 70px;
+		border: 1px solid #302322;
+		border-radius: 15px;
+		z-index: 556;
+	}
+}
+
+.content{
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	width: 1280px;
+	height: auto;
+	background-color: transparent;
+	/*background-color: #fffefc;*/
+	z-index: 5;
+}
+
+.cont_params{
+	position: relative;
+	width: 100%;
+	left: 0px;
+	z-index: 10;
+
+	&.content_menu{
+		height: 115px;
+	}
+
+	&.content_0{
+		height: 590px;
+	/*	background-image: url(img/mainimg.jpg);
+		background-width: 100%;
+		background-repeat: no-repeat;
+		background-position: top;*/
+
+
+		.content_0_info{
+			position: absolute;
+			top: 50px;
+			left: 50px;
+			width: 650px;
+			height: 500px;
+			background-color: #302322;
+			opacity: 0.5;
+			font-size: 28px;
+			color: #fffefc;
+		}
+	}
+
+	&.content_1{
+		position: relative;
+		height: 340px;
+		background-color: #302322;
+		background-width: 100%;
+
+		.content_1_info{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+
+			.header_ci_1{
+				position: absolute;
+				top: 20px;
+				height: 50px;
+				width: 50%;
+				left: 25%;
+				right: 25%;
+				background-color: #302322;
+				opacity: 0.7;
+				border: 1px solid #fffefc;
+				border-radius: 10px;
+				text-align: center;
+				z-index: 25;
+			/*	background-image: url(img/line.png);
+				background-repeat: no-repeat;*/
+			}
+
+			.header_ci_1_text{
+				color: #fffefc;
+				font-size: 32px;
+			}
+			.container_reason{
+				position: absolute;
+				top: 120px;
+				left: 40px;
+				width: 1200px;
+				height: 205px;
+
+				.reason{
+					position: absolute;
+					width: 200px;
+					height: 200px;
+					border: 1px solid #fffefc;
+					border-radius: 15px;
+					background-color: #fffefc;
+					opacity: 0.5;
+					z-index: 30;
+
+					&.reason_0{
+						left: 0px;
+					}
+
+					&.reason_1{
+						left: 250px;
+					}
+
+					&.reason_2{
+						left: 500px;
+					}
+
+					&.reason_3{
+						left: 750px;
+					}
+
+					&.reason_4{
+						left: 1000px;
+					}
+
+					.reason_in{
+						position: absolute;
+						top: 14px;
+						left: 14px;
+						width: 160px;
+						height: 160px;
+						border: 1px solid #302322;
+						border-radius: 15px;
+						background-color: #fffefc;
+						opacity: 0.5;
+						z-index: 31;
+						font-size: 15px;
+						text-indent: 20px;
+						padding: 5px;
+
+						p{
+							margin: 0px;
+						}
+					}
+				}				
+			}
+		}
+	}
+
+	&.content_2{
+		position: relative;
+		height: 600px;
+		background-color: #fffefc;
+		background-width: 100%;
+
+		.passage{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+
+			.passage_img{
+				position: absolute;
+				width: 150px;
+				height: 150px;
+				outline: 1px solid black;
+
+				&:hover{
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+
+	&.content_3{
+		position: relative;
+		height: 200px;
+		background-color: #302322;
+		background-width: 100%;
+
+		.contacts{
+			position: absolute;
+			top: 25px;
+			left: 200px;
+			vertical-align: middle;
+			width: 800px;
+			height: 150px;
+
+			border: 1px solid #fffefc;
+			background-color: #302322;
+			border-radius: 15px;
+			padding: 0px 35px;
+
+			font-size: 24px;
+			color: #fffefc;
+		}
+	}
+
+}
+
+.darkened_area{
+	position: fixed;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	opacity: 0.7;
+}
