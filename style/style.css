@@ -131,6 +131,7 @@
     width: auto;
     height: auto;
     cursor: pointer;
+    font-size: 24px;
     transform-origin: 50% 50%; }
     .price .pos-click.click-man {
       top: 40%; }
@@ -154,14 +155,15 @@
     display: inline-block;
     top: 30%;
     left: 30%;
-    width: 50%; }
+    width: 40%;
+    font-size: 20px; }
     .price .price_table table {
       width: 100%; }
     .price .price_table td.td-0 {
       display: inline-block;
-      width: 79%; }
+      width: 100%; }
     .price .price_table td.td-1 {
-      width: 19%; }
+      width: 30%; }
   .price.price-hairstyle {
     background-image: url("../img/hairstyle.jpg"); }
 

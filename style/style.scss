@@ -177,6 +177,7 @@
         width: auto;
         height: auto;
         cursor: pointer;
+        font-size: 24px;
         transform-origin: 50% 50%;
 
         &.click-man{
@@ -212,7 +213,8 @@
         display: inline-block;
         top: 30%;
         left: 30%;
-        width: 50%; 
+        width: 40%; 
+        font-size: 20px;
         
         table{
             width: 100%;
@@ -222,11 +224,11 @@
             
             &.td-0{
                 display: inline-block;
-                width: 79%;
+                width: 100%;
             }
 
             &.td-1{
-                width: 19%;
+                width: 30%;
             }
         }
 
