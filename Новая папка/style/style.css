@@ -127,7 +127,7 @@
   display: none; }
   .price .pos-click {
     position: absolute;
-    left: 5%;
+    left: 3%;
     width: auto;
     height: auto;
     cursor: pointer;
@@ -147,23 +147,32 @@
     right: 5%;
     width: auto;
     height: auto;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 24px; }
     .price .button-back:hover {
       transform: scale(1.1); }
-  .price .price_table {
+  .price .price-table {
     position: absolute;
-    display: inline-block;
-    top: 30%;
-    left: 30%;
+    display: none;
+    top: 20%;
+    left: 28%;
     width: 40%;
-    font-size: 20px; }
-    .price .price_table table {
+    font-size: 20px;
+    vertical-align: middle; }
+    .price .price-table table {
       width: 100%; }
-    .price .price_table td.td-0 {
-      display: inline-block;
+    .price .price-table thead {
+      pointer-events: none;
+      font-weight: bold; }
+    .price .price-table tr:hover {
+      background-color: #c7add2;
+      border: 1px solid black;
+      border-radius: 15%; }
+    .price .price-table td.td-0 {
       width: 100%; }
-    .price .price_table td.td-1 {
-      width: 30%; }
+    .price .price-table td.td-1 {
+      width: 30%;
+      text-align: center; }
   .price.price-hairstyle {
     background-image: url("../img/hairstyle.jpg"); }
 

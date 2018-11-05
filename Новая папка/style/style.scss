@@ -173,7 +173,7 @@
 
     .pos-click{
         position: absolute;
-        left: 5%;
+        left: 3%;
         width: auto;
         height: auto;
         cursor: pointer;
@@ -202,33 +202,45 @@
         width: auto;
         height: auto;
         cursor: pointer;
+        font-size: 24px;
 
         &:hover{
             transform: scale(1.1);
         }
     }
 
-    .price_table{
+    .price-table{
         position: absolute;
-        display: inline-block;
-        top: 30%;
-        left: 30%;
+        display: none;
+        top: 20%;
+        left: 28%;
         width: 40%; 
         font-size: 20px;
+        vertical-align: middle;
         
         table{
             width: 100%;
         }
 
+        thead{
+            pointer-events: none;
+            font-weight: bold;
+        }
+
+        tr:hover{
+            background-color: #c7add2;
+            border: 1px solid black;
+            border-radius: 15%;
+        }
+
         td{            
-            
             &.td-0{
-                display: inline-block;
                 width: 100%;
             }
 
             &.td-1{
                 width: 30%;
+                text-align: center;
             }
         }
 

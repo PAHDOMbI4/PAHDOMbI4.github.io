@@ -1,73 +1,23 @@
-<!DOCTYPE html>
-<html lage="ru">
+<html>
     <head>
         <title>Мисс</title>
-		<link rel="stylesheet" type="text/css" href = "style/style.css"></link>
-    </head>
-    <body class = "body-style">
-        <div class = 'screen-bg'>
-            <div class = 'logo'>
-                Мисс
-            </div>
-            <div class = 'sale sale-hairstyle' onClick = "scale_sale('hairstyle')"></div>
-            <div class = 'sale sale-manicure' onClick = "scale_sale('manicure')"></div>
-            <div class = 'sale sale-depilation' onClick = "scale_sale('depilation')"></div>
-        </div>
-        <div class = 'big_size big_size-sale' onClick = "scale_big_size()"><div class = 'sale-image'></div></div>
-        <div class = 'menu-body'>
-            <div class = 'menu menu-hairstyle' onClick = "menu_click('price-hairstyle')">Стрижки</div>
-            <div class = 'menu menu-massage' onClick = "menu_click('massage')">Массаж</div>
-            <div class = 'menu menu-makeup' onClick = "menu_click('makeup')">Макияж</div>
-            <div class = 'menu menu-manicure' onClick = "menu_click('manicure')">Маникюр</div>
-            <div class = 'menu menu-epilation' onClick = "menu_click('epilation')">Эпиляция</div>
-        </div>
-        <div class = 'contacts'>
-            <span class = "text-contacts">Мы находимся:</span><br/>
-            <span class = "text-contacts">г. Чебоксары, Ленинский район, ул. Привокзальная, дом 3. Вход с торца здания слева.</span><br/>
-            <span class = "text-contacts">Время работы:</span><br/>
-            <span class = "text-contacts">Ежедневно с 9:00 до 19:00 </span><br/>
-            <span class = "text-contacts">Телефон:</span><br/>
-            <span class = "text-contacts">+7(8352)22-25-69</span>
-        </div>
-       <div class = "price price-hairstyle">
-           <div class = 'button-back' onClick = 'click_btnBack("price-hairstyle")'>На главную</div>
-           <div class = 'pos-click click-man' onClick='click_price("table-price-man")'>Мужские стрижки</div>
-           <div class = 'pos-click click-children' onClick='click_price("table-price-children")'>Детские стрижки (до 7 лет)</div>
-           <div class = 'pos-click click-woman' onClick='click_price("table-price-woman")'>Женские стрижки</div>
-           <div class = 'price_table table-price-man'>
-                <table>
-                    <tr>
-                        <td class = 'td-0'>Наименование услуг</td><td class = 'td-1'>Стоимость, руб</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'>Простая (спортивная) мытье, сушка</td><td class = 'td-1'>200</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'>Стрижка без насадки (наголо), мытье</td><td class = 'td-1'>120</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'>Бокс, полубокс ( мытье, сушка)</td><td class = 'td-1'>230</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'>Модельная стрижка</td><td class = 'td-1'>250</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'>Креативная (мытье, сушка)</td><td class = 'td-1'>от 350</td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'></td><td class = 'td-1'></td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'></td><td class = 'td-1'></td>
-                    </tr>
-                    <tr>
-                        <td class = 'td-0'></td><td class = 'td-1'></td>
-                    </tr>
 
-                </table>
-           </div>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class = 'container-fluid'>
+
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script type = "text/javascript" src ="script/animate.js"></script
+
+        <style>
+            .container-fluid{
+                outline: 1px solid green;
+            }
+        </style>
     </body>
 </html>

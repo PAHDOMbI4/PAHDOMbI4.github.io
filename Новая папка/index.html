@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lage="ru">
+    <head>
+        <title>Мисс</title>
+		<link rel="stylesheet" type="text/css" href = "style/style.css"></link>
+		<link rel="stylesheet" type="text/html" href = "man-price.html"></link>
+    </head>
+    <body class = "body-style">
+        <div class = 'screen-bg'>
+            <div class = 'logo'>
+                Мисс
+            </div>
+            <div class = 'sale sale-hairstyle' onClick = "scale_sale('hairstyle')"></div>
+            <div class = 'sale sale-manicure' onClick = "scale_sale('manicure')"></div>
+            <div class = 'sale sale-depilation' onClick = "scale_sale('depilation')"></div>
+        </div>
+        <div class = 'big_size big_size-sale' onClick = "scale_big_size()"><div class = 'sale-image'></div></div>
+        <div class = 'menu-body'>
+            <div class = 'menu menu-hairstyle' onClick = "menu_click('price-hairstyle')">Стрижки</div>
+            <div class = 'menu menu-massage' onClick = "menu_click('massage')">Массаж</div>
+            <div class = 'menu menu-makeup' onClick = "menu_click('makeup')">Макияж</div>
+            <div class = 'menu menu-manicure' onClick = "menu_click('manicure')">Маникюр</div>
+            <div class = 'menu menu-epilation' onClick = "menu_click('epilation')">Эпиляция</div>
+        </div>
+        <div class = 'contacts'>
+            <span class = "text-contacts">Мы находимся:</span><br/>
+            <span class = "text-contacts">г. Чебоксары, Ленинский район, ул. Привокзальная, дом 3. Вход с торца здания слева.</span><br/>
+            <span class = "text-contacts">Время работы:</span><br/>
+            <span class = "text-contacts">Ежедневно с 9:00 до 19:00 </span><br/>
+            <span class = "text-contacts">Телефон:</span><br/>
+            <span class = "text-contacts">+7(8352)22-25-69</span>
+        </div>
+       <div class = "price price-hairstyle">
+           <div class = 'button-back' onClick = 'click_btnBack("price-hairstyle")'>На главную</div>
+           <div class = 'pos-click click-man' onClick='click_price("table-price-man")'>Мужские стрижки</div>
+           <div class = 'pos-click click-children' onClick='click_price("table-price-children")'>Детские стрижки (до 7 лет)</div>
+           <div class = 'pos-click click-woman' onClick='click_price("table-price-woman")'>Женские стрижки</div>
+           <div class = 'price-table table-price-man'>
+                <table>
+                    <thead>
+                        <tr>
+                            <td class = 'td-0'>Наименование услуг</td><td class = 'td-1'>Стоимость, руб</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class = 'td-0'>Простая (спортивная) мытье, сушка</td><td class = 'td-1'>200</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Стрижка без насадки (наголо), мытье</td><td class = 'td-1'>120</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Бокс, полубокс ( мытье, сушка)</td><td class = 'td-1'>230</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Модельная стрижка</td><td class = 'td-1'>250</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Креативная (мытье, сушка)</td><td class = 'td-1'>от 350</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Окантовка</td><td class = 'td-1'>220</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Стрижка без насадки (наголо),мытье</td><td class = 'td-1'>150</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Стрижка бороды</td><td class = 'td-1'>100</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Поправка усов</td><td class = 'td-1'>50</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Мытье головы шампунем + сушка</td><td class = 'td-1'>50</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Укладка волос укладочными средствами</td><td class = 'td-1'>100</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Окрашивание волос, бороды (работа) краской Alpha Homme, Estel</td><td class = 'td-1'>200</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Мелирование волос длиной до 12 см</td><td class = 'td-1'>300-350</td>
+                    </tr>
+                </table>
+            </div>
+            <div class = 'price-table table-price-children'>
+                <table>
+                    <thead>
+                        <tr>
+                            <td class = 'td-0'>Наименование услуг</td><td class = 'td-1'>Стоимость, руб</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class = 'td-0'>Стрижка без насадки (наголо), мытье</td><td class = 'td-1'>120</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Простая стрижка</td><td class = 'td-1'>150</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Модельная стрижка</td><td class = 'td-1'>210</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Креативная стрижка</td><td class = 'td-1'>230</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Рисунок</td><td class = 'td-1'>от 50</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Оформление челки</td><td class = 'td-1'>50</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Подравнивание кончиков (сушка)</td><td class = 'td-1'>от 120</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Прическа праздничная</td><td class = 'td-1'>300-500</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Плетение волос</td><td class = 'td-1'>от 200</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Завивка волос (локоны, гофре)</td><td class = 'td-1'>от 200</td>
+                    </tr>
+                    <tr>
+                        <td class = 'td-0'>Украшения для прически, плетения</td><td class = 'td-1'>от 15 ру. За элемент</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script type = "text/javascript" src ="script/animate.js"></script
+    </body>
+</html>

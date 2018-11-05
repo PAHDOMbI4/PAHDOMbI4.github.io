@@ -39,3 +39,10 @@ function menu_click(open_element_menu){
 function click_btnBack(close_element_menu){
     $('.'+close_element_menu).fadeOut();
 }
+
+function click_price(up_table){
+    console.log("### CLICK ### ", up_table)
+    $(".price-table").fadeOut()
+    $('.'+up_table).fadeIn()
+    console.log("### FADE_IN ###")
+}
